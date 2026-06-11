@@ -1,0 +1,17 @@
+
+2026-06-01 ─────────────────────────────────────────
+1. 가상환경 생성/ 실행하는 방법 학습
+    *터미널 명령어*
+        Python 3.12로 가상환경 생성
+        py -3.12 -m venv venv312
+        (python -m venv venv)
+
+        활성화
+        venv312\Scripts\activate
+
+        버전 확인
+        python --version
+        [아래 예시]
+        import sys
+        print("파이썬 버전:", sys.version)
+
